@@ -1,0 +1,20 @@
+body{
+    background-color: #b3b6b9;
+    margin: 0px;
+}
+
+.Home__Pokedex{
+    padding: 20px;
+}
+.Home__Pokeinfo{
+
+}
+.pokename{
+text-transform: uppercase;
+font-weight: 200;
+font-family: sans-serif;
+}
+.pokepic{
+    width: 340px;
+    height: 300px;
+}
