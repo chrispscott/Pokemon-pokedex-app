@@ -42,7 +42,7 @@ export default class Pokepage1 extends Component {
     }
 
 
-
+// !api call for pokedata
      async getpokemon11(){
         const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/11/")
          console.log(res);
@@ -80,7 +80,7 @@ export default class Pokepage1 extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon13(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/13/")
             console.log(res);
@@ -99,7 +99,7 @@ export default class Pokepage1 extends Component {
 
          // ===========================================================================
 
-
+// !api call for pokedata
          async getpokemon14(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/14/")
             console.log(res);
@@ -159,7 +159,7 @@ export default class Pokepage1 extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon17(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/17/")
             console.log(res);

@@ -9,7 +9,7 @@ import Pokepage1 from './Pokepage1';
 import Favorites from './Favorites';
 import Fanart from './Fanart';
 
-
+// !api call data being held in state
 export default class Home extends Component {
     constructor(props) {
         super(props);
@@ -45,7 +45,7 @@ export default class Home extends Component {
     }
 
 
-
+// !api call for pokedata
      async getpokemon(){
         const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/1/")
          console.log(res);
@@ -54,7 +54,7 @@ export default class Home extends Component {
             Pokemon: ans1
              })
         }
-
+// !api call for pokedata
         async getpokemon1(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/1/")
             console.log(res);
@@ -65,7 +65,7 @@ export default class Home extends Component {
 
  // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon2(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/2/")
             console.log(res);
@@ -83,7 +83,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon3(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/3/")
             console.log(res);
@@ -102,7 +102,7 @@ export default class Home extends Component {
 
          // ===========================================================================
 
-
+// !api call for pokedata
          async getpokemon4(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/4/")
             console.log(res);
@@ -121,7 +121,7 @@ export default class Home extends Component {
 
          // ===========================================================================
 
-
+// !api call for pokedata
          async getpokemon5(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/5/")
             console.log(res);
@@ -143,7 +143,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon6(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/6/")
             console.log(res);
@@ -162,7 +162,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon7(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/7/")
             console.log(res);
@@ -180,7 +180,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon8(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/8/")
             console.log(res);
@@ -199,7 +199,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon9(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/9/")
             console.log(res);
@@ -217,7 +217,7 @@ export default class Home extends Component {
 
         // ===========================================================================
 
-
+// !api call for pokedata
         async getpokemon10(){
             const res = await axios.get("https://pokeapi.co/api/v2/pokemon-form/10/")
             console.log(res);
