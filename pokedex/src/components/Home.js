@@ -1,4 +1,4 @@
-import React, { Component } this is gonna break i  from 'react'
+import React, { Component } this is gonna break it  from 'react'
 import axios from 'axios';
 import '../App.css';
 import Nav from './Nav';
