@@ -1,10 +1,14 @@
-import React, { Component }this is gonna breakit  from 'react'
+import React, { Component } from 'react'
 import axios from 'axios';
 import '../App.css';
 import Nav from './Nav';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import Pokepage1 from './Pokepage1';
+import Favorites from './Favorites';
+import Fanart from './Fanart';
+
 
 export default class Home extends Component {
     constructor(props) {
@@ -266,6 +270,7 @@ export default class Home extends Component {
         return (
             <div className='home__container'>
                 <Nav/>
+                <Fanart/>
                 <Grid className='Home__Pokedex' container spacing={2}>
                     <Grid  item xs={4}>
                         <Card variant="outlined">
@@ -339,7 +344,7 @@ export default class Home extends Component {
                     </Grid>
                 </Grid>
                 
-                <h1> this is the pokedex page </h1>
+                <h1>Page 1 </h1>
             </div>
         )
     }
