@@ -1,5 +1,16 @@
 # Pokemon-pokedex-app
 
+## THE GOAL OF THE APP
+* To give more information on certain pokemon to thoes looking for information
+
+## TARGET USER
+* the target user is a pokemon player looking for more information on the pokemon he/she just caught 
+
+##  TECH USED
+* THIS APP WAS MADE USEING THE POKE APP API
+* React
+* axios
+* React router
 
 ## Description
 have you ever wanted to find out more about certain pokemon the pokedex app has all the information you will need 
