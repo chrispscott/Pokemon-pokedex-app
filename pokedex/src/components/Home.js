@@ -1,4 +1,4 @@
-import React, { Component } this is gonna break   from 'react'
+import React, { Component } this is gonna brea   from 'react'
 import axios from 'axios';
 import '../App.css';
 import Nav from './Nav';
