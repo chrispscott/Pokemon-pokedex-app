@@ -1,4 +1,4 @@
-import React, { Component } this is g   from 'react'
+import React, { Component } this is    from 'react'
 import axios from 'axios';
 import '../App.css';
 import Nav from './Nav';
